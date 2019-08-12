@@ -1,0 +1,25 @@
+.box { 
+    width: 100px;
+    height: 100px;
+}
+#colorbox { background: rgb(126, 206, 251); }
+.box { background: rgb(255, 143, 158); }
+
+
+p { 
+    width: 100px;
+    height: 100px; 
+}
+.box1 { background: rgb(128, 128, 128) }
+p { background: rgb(255, 143, 158);}
+
+
+#colorbox1 { background: rgb(255, 143, 158)}
+p { background: rgb(182, 140, 229)}
+
+div { 
+    width: 100px;
+    height: 100px; 
+}
+p { background: rgb(47, 0, 255)}
+

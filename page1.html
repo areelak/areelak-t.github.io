@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Specificity</title>
+    <link rel="stylesheet" href="css/styleP.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fontawesome-free-5.10.1-web/css/all.min.css">
+    
+    
+</head>
+<body>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="page1.html">CSS Specificity</a></li>
+        </ol>
+    </nav>
+
+    <div class="center">
+        <h1>CSS Specificity</h1>
+        <p>ตามปกติ การทำงานของ css จะทำงานเป็นลำดับขั้น คือ จากบรรทัดแรกลงมา และ เมื่อใช้คำสั่งซ้ำกัน จะทำคำสั่งล่าสุด</p>
+        <h3>CSS Specificity คืออะไร??</h3>
+        <p>เป็นการเลือกทำงานตามความสำคัญของ Selector 
+            ซึ่งเรียงความสำคัญจากมากไปน้อยได้ ดังนี้</p>
+
+        <span class="badge badge-danger" id="sizeSpan">Inline-style</span>
+        <b><span>></span></b>
+        <span class="badge badge-warning" id="sizeSpan">ID</span>
+        <b><span>></span></b>
+        <span class="badge badge-info" id="sizeSpan">class</span>
+        <b><span>></span></b>
+        <span class="badge badge-dark" id="sizeSpan">Element</span>
+    </div>
+
+    
+
+
+    <br>
+    <h4 class="color" id="display">ตัวอย่าง</h4>
+
+    <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">VS</th>
+                <th scope="col">html</th>
+                <th scope="col">css</th>
+                <th scope="col">result</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Class vs ID</th>
+                <td><img src="image/code_class-id.jpg" alt="Responsive image"></td>
+                <td><img src="image/ex_class-id1.jpg" alt="Responsive image"></td>
+                <td><img src="image/resume_blue1.jpg" alt="Responsive image"></td>
+              </tr>
+              <tr>
+                <th scope="row">Element vs Class</th>
+                <td><img src="image/code_element-class.jpg" alt="Responsive image"></td>
+                <td><img src="image/ex_element-class1.jpg" alt="Responsive image"></td>
+                <td><img src="image/resume_gray.jpg" alt="Responsive image"></td>
+              </tr>
+              <tr>
+                <th scope="row">Element vs ID</th>
+                <td><img src="image/code_element-id.jpg" alt="Responsive image"></td>
+                <td><img src="image/ex_element-id1.jpg" alt="Responsive image"></td>
+                <td><img src="image/result_pink.jpg" alt="Responsive image"></td>
+              </tr>
+              <tr>
+                <th scope="row">Style vs ID</th>
+                <td><img src="image/code_style-id.jpg" alt="Responsive image"></td>
+                <td><img src="image/ex_style-id.jpg" alt="Responsive image"></td>
+                <td><img src="image/result_orange.jpg" alt="Responsive image"></td>
+                </tr>
+            </tbody>
+          </table>
+
+
+    
+</body>
+</html>

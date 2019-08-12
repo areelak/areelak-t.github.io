@@ -1,0 +1,21 @@
+
+.center{
+    text-align: center;
+}
+#sizeimg{
+    width: 300px;
+    height: auto;
+}
+#display{
+    padding: 10px 0 10px 20px;
+    margin: 0 30px 10px 20px;
+}
+.color{
+    background-color: rgb(115, 136, 136);
+    color: whitesmoke;
+}
+
+#sizeSpan{
+    font-size: 1em;
+}
+    
